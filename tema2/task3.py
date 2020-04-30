@@ -1,5 +1,8 @@
-an = int(input("Introduceti un an: "))
-if an % 4 == 0:
-    print("Anul este bisect.")
+an = input("Introduceti un an: ")
+if not an.isdigit():
+    print("Nu ati introdus un numar")
 else:
-    print("Anul nu este bisect.")
+    if an % 4 == 0:
+        print("Anul este bisect.")
+    else:
+        print("Anul nu este bisect.")
