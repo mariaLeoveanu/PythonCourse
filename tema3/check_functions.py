@@ -118,4 +118,3 @@ def checksum_cnp(input_cnp):
     if result == 10:
         result = 1
     return str(result)
-

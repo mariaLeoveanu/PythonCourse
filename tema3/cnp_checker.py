@@ -1,4 +1,5 @@
-from check_functions import check_gender, check_year, check_month, check_day, check_county, check_cnp, find_cnp_gender, \
+from check_functions import check_gender, check_year, check_month, check_day, \
+    check_county, check_cnp, find_cnp_gender, \
     check_cnp_header, checksum_cnp
 from constants import months_digits, months_alpha, months_digits_short, counties_dictionary
 
@@ -79,16 +80,7 @@ cnp_header += birth_month
 cnp_header += birth_day
 cnp_header += str(counties_dictionary.get(birth_county))
 
-while True:
-    if check_cnp(cnp) and check_cnp_header(cnp_header, cnp):
-        break
-    else:
-        cnp = input("CNP: ")
-
-# if checksum is different => CNP is not valid
-if checksum_cnp(cnp) != cnp[12]:
-    print("The CNP you provided is not correct")
-else:
+if check_cnp(cnp) and check_cnp_header(cnp_header, cnp) and checksum_cnp(cnp) == cnp[12]:
     print("The CNP you provided is valid!")
-
-
+else:
+    print("The CNP you provided is not correct")
