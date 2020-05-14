@@ -34,6 +34,35 @@ print(tupl[2])
 # modificarea unei valori dintr-un tuplu !! nu se poate
 # un tuplu = immutable
 
+# Liste
+x = [True, 1, '4']
+print(x[1])
+x[1] = 'a'
+print(x)
+x.append(5)
+print(x)
+x = [1, 2, ['3', '4', 5]]
+# daca vrem sa accesam un elem dintr-o lista imbricata
+# putem sa combinam mai multi indecsi
+
+print(x[1:4])  # elementele [1], [2], [3] !! intervalul e [1, 4)
+
+# accesarea listei inverse: folosim -1
+
+# Dictionare
+
+a = {2: "35", 1: "3456"}
+print(a[1])
+a[1] = "222"  # valorile se pot schimba
+
+# cheile nu se pot schimba, pot doar sa fie sterse
+for x in a:
+    print(x)  # se afiseaza doar cheile. Pt valori, inlocuim a[x]
+
+
+
+
+
 
 
 

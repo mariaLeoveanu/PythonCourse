@@ -7,3 +7,5 @@ positive/negative numbers, strings that contain only numbers/chars)
 Course 3: Intoduction to some structures: tuples, operations on strings
 Assignment 3: Personal Numerical Code validator. User gives information about date of birth, place of birth and his/hers 
 personal code. The program checks if the information given coincides with the code given and displays a message accordingly
+
+Course 4: Introduction to web scraping. Simple demo of automatically filling form fields with selenium. 

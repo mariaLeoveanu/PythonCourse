@@ -117,4 +117,5 @@ def checksum_cnp(input_cnp):
     result = result % 11
     if result == 10:
         result = 1
+    print(result)
     return str(result)
