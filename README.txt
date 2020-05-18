@@ -9,3 +9,4 @@ Assignment 3: Personal Numerical Code validator. User gives information about da
 personal code. The program checks if the information given coincides with the code given and displays a message accordingly
 
 Course 4: Introduction to web scraping. Simple demo of automatically filling form fields with selenium. 
+Assignment 4: Hangman game 
