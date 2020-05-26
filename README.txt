@@ -10,3 +10,7 @@ personal code. The program checks if the information given coincides with the co
 
 Course 4: Introduction to web scraping. Simple demo of automatically filling form fields with selenium. 
 Assignment 4: Hangman game 
+
+Course 5: Beautiful Soup demo. Exporting data from html table to excel, storing html table into text file.
+Assignment 5: Store data about number of covid-19 cases in each county in excel sheet and export html of each such table into text file.
+The program can also plot the evolution of cases on a requested county. 
