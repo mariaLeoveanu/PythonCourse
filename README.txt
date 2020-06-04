@@ -15,3 +15,6 @@ Course 5: Beautiful Soup demo. Exporting data from html table to excel, storing 
 Assignment 5: Store data about number of covid-19 cases in each county in excel sheet and export html of each such table into text file.
 The program can also plot the evolution of cases on a requested county. 
 LE: Added another implementation that gathers the data in one table instead of several sheets
+
+Course 6: Demo functions 
+Assignment 6: Tic tac toe game
